@@ -171,7 +171,29 @@ h2{
     }
 
 }
-
+@media screen and (min-width:700px) and (max-width:1199px) {
+    .none{
+        display: inline;
+    }
+    .articolo{
+        margin-bottom: 20px;
+    }
+    .listaarticoli li{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .listaarticoli li>ol{
+        width: 45%;
+    }
+    svg{
+        position:absolute;
+        max-width: 30%;
+        right: 0%;
+        top: -29%;
+        
+        
+    }
+}
 
 
 /*Main*/
